@@ -1,5 +1,6 @@
 # Setup
 
+```bash
 git clone <url>
 cd <project-name>
 npm install
@@ -13,6 +14,7 @@ mv postcss.config.js postcss.config.cjs
 <!-- Run app -->
 
 npm run dev
+```
 
 # create-svelte
 
