@@ -1,3 +1,19 @@
+# Setup
+
+git clone <url>
+cd <project-name>
+npm install
+
+<!-- Tailwind install -->
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init tailwind.config.cjs -p
+mv postcss.config.js postcss.config.cjs
+
+<!-- Run app -->
+
+npm run dev
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
